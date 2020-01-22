@@ -1,0 +1,45 @@
+LETRA : Q ->salir
+      
+LETRA :'O' || 'o' -->  activar siguiente objeto (cubo,tetraedro,cilinidro,cono,esfera,num_objetosjerarquico)
+        
+LETRA: 'M' -> cambiar el modelo de dibujo(lineas, puntos relleno y ajedrez)
+
+LETRA: 'N'-> aumentar el número de instancias del perfil
+     
+LETRA: 'B'-> disminuir el número de instancias del perfil
+      
+Letra 'P' -> siguiente parámetro del objeto jerárquico
+  
+LETRA: 'A'-> iniciar o apagar las animaciones
+
+LETRA: 'Z'-> incrementar el valor del parámetro seleccionado
+       
+LETRA: 'K'-> decrementar el valor del parámetro seleccionado
+    
+TECLA: '<' -> aumentar revoluciones
+
+TECLA: '>' -> disminuir revoluciones  
+
+TECLA: 'GLUT_KEY_LEFT' -> disminuir ángulo de Y
+
+TECLA: 'GLUT_KEY_RIGHT' -> aumentar ángulo de Y
+
+TECLA: 'GLUT_KEY_UP' -> disminuir ángulo de X
+
+TECLA: 'GLUT_KEY_DOWN' -> aumentar ángulo de X
+
+TECLA: 'GLUT_KEY_PAGE_UP' -> distancia del observador aumentada en 1.2
+
+TECLA: 'GLUT_KEY_PAGE_DOWN' -> distancia del observador disminuida en 1.2
+
+LETRA: 'H'-> activar y desactivar sombras (GL_FLAT, GL_SMOOTH)
+
+LETRA: 'G'-> activar y desactivar luces
+
+LETRA: 'U'-> cambiar el modo de dibujo de inmediato a diferido y viceversa         
+ 
+PREPARA TEXTURA NO ENTIENDO LOS PARAMETROS QUE METE EN DATOS
+
+
+
+HE CAMBIADO LA LOCALIZACION DEL ENCENDIDO DE LUCES DESDE DRAW A INICIALIZAR ESCENA
